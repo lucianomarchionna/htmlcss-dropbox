@@ -1,3 +1,4 @@
+/* common */
 * {
     margin: 0;
     padding: 0;
@@ -13,3 +14,55 @@ body{
     display: table;
     clear: both;
 }
+/* common */
+
+/* header */
+header{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+    line-height: 70px;
+}
+
+.left{
+    float: left;
+    display: inline;
+}
+
+.right{
+    float: right;
+    display: inline;
+}
+
+.vertical-align-middle{
+    vertical-align: middle;
+}
+
+.left a,
+.right a{
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: dotted;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.button-blue{
+    padding: 8px 20px;
+    color: white;
+    font-size: 16px;
+    background-color: dodgerblue;
+}
+/* header */
