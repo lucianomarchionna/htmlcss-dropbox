@@ -63,15 +63,17 @@ button{
     padding: 10px 20px;
     color: white;
     font-size: 16px;
-    background-color: #0061ff;
+    background-color: #0061FF;
 }
 /* header */
 
+/* banner */
 .banner{
     background-color: #B4D0E7;
     height: 800px;
     width: 100%;
     position: relative;
+    margin-bottom: 150px;
 }
 
 .banner>h1{
@@ -104,7 +106,115 @@ button{
     margin: 30px 0 15px 0;
 }
 
-i{
+#text-banner i{
     font-size: 40px;
     padding-top: 30px;
 }
+/* banner */
+
+/* introdizione tipi di fatturazione */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.fatturazione{
+    margin-bottom: 40px;
+}
+
+.container>section>h2{
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+#annuale{
+    margin-left: 20px;
+}
+/* introdizione tipi di fatturazione */
+
+/* offerte */
+.row{
+    margin: 0px;
+}
+
+.w-30 {
+    float: left;
+    min-height: 900px;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+}
+
+.offer{
+    border: 1px solid lightgray;
+}
+
+.w-90{
+    width: 90%;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+
+.w-30>h4{
+    border: 1px solid lightgray;
+    text-align: center; 
+    padding: 10px 0;
+}
+
+.w-90>h3{
+    font-weight: 800;
+}
+
+.price{
+    display: block;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.rinnovo{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.w-30>i{
+    width: 30%;
+}
+
+.w-90 .fa-check{
+    color: #0061FF;
+}
+
+li{
+    list-style: none;
+}
+
+.buy-now{
+    margin: 20px 0;
+    display: block;
+    font-weight: 600;
+}
+
+.buy-now>a{
+    color: #0061FF;
+    text-decoration: none;
+}
+
+.w-90 ul li{
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.w-90>h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.w-90>.button-blue{
+    margin-top: 30px;
+}
+/* offerte */
