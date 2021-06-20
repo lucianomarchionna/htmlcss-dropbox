@@ -262,3 +262,37 @@ li{
     margin-bottom: 30px;
 }
 /* Enterprice */
+
+/* partner */
+.partner{
+    width: 50%;
+    display: inline-block;
+    margin-top: 150px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.text{
+    margin-top: 190px;
+    display: inline;
+    width: 45%;
+}
+
+.text>p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.text>button{
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+/* partner */
