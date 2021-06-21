@@ -444,6 +444,7 @@ li{
     margin-bottom: 50px;
 }
 /* team */
+/* minibanner */
 .w-70{
     width: 70%;
     margin: 0 auto;
@@ -452,7 +453,7 @@ li{
 
 #mini-banner{
     background-color: #B4D0E7;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .minibanner-text{
@@ -473,3 +474,40 @@ li{
 .minibanner-button>button{
     padding: 10px 40px;
 }
+/* minibanner */
+
+/* domande frequenti */
+#margin-bot40{
+    margin-bottom: 40px;
+}
+
+.faq {
+    position: relative;
+    padding: 30px 0px;
+    border-top: 1px solid lightgray;
+}
+
+.faq:last-of-type {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 100px;
+}
+
+.faq .fas {
+    position: absolute;
+    right: 0;
+}
+
+.faq .faq-answer {
+    padding-top: 20px;
+    width: 70%;
+    display: none;
+}
+
+.faq:hover {
+    cursor: pointer;
+}
+
+.faq:hover .faq-answer {
+    display: block;
+}
+/* domande frequenti */
