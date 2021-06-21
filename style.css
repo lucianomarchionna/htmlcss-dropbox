@@ -511,3 +511,43 @@ li{
     display: block;
 }
 /* domande frequenti */
+
+/* footer */
+footer{
+    background-color: #232728;
+    padding: 80px 0px 60px 0;
+    color: white;
+    width: 100%;
+}
+
+.w-90{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+#foot-up{
+    padding: 35px 0;
+    width: 100%;
+}
+
+footer h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#foot-down{
+    padding: 45px 0;
+}
+
+#foot-down>a{
+    color: grey;
+    text-decoration: none;
+}
+
+.menu-col{
+    float: left;
+    width: 20%;
+    margin-bottom: 100px;
+}
+/* footer */
