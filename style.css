@@ -14,6 +14,10 @@ body{
     display: table;
     clear: both;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /* common */
 
 /* header */
@@ -32,12 +36,12 @@ header{
 /* le due classi seguenti (l e r) sono state richiamate anche nella sezione partner */
 .l{
     float: left;
-    display: inline;
+    display: inline-block;
 }
 
 .r{
     float: right;
-    display: inline;
+    display: inline-block;
 }
 
 .vertical-align-middle{
@@ -208,6 +212,11 @@ li{
     text-decoration: none;
 }
 
+.w-90>hr{
+    width: 16%;
+    border: 1px solid lightgray;
+}
+
 .w-90 ul li{
     font-weight: 600;
     margin: 15px 0;
@@ -331,3 +340,136 @@ li{
     margin-bottom: 15px;
 }
 /* 6 riquadri */
+
+/* team */
+#link-clienti{
+    color: #0061FF;
+}
+
+.teams{
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.teams .side1 {
+    float: left;
+    height: 30vw;
+    width: 30vw;
+}
+
+.side1 .team {
+    float: left;
+    height: 15vw;
+    width: 15vw;
+    line-height: 15vw;
+    line-height: 15vw;
+    text-align: center;
+}
+
+.teams .side2 {
+    float: right;
+    height: 30vw;
+    width: 30vw;
+}
+
+.side2 .team {
+    float: right;
+    height: 15vw;
+    width: 15vw;
+    line-height: 15vw;
+    text-align: center;
+}
+
+.side1 img,
+.side2 img{
+    width: 50%;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+.green{
+    background-color: rgb(162,211,155);
+    border: 12px solid rgb(194, 226, 190);
+}
+
+.bordeaux{
+    background-color: rgba(97,8,43);
+}
+
+.light-blue-strong{
+    background-color: rgb(0,147,206);
+}
+
+.red1{
+    background-color: rgba(255,28,28);
+}
+
+.red2{
+    background-color: rgb(213,0,31);
+}
+
+.light-blue{
+    background-color: rgb(180,208,231);
+}
+
+.blue{
+    background-color: rgb(13,36,129);
+}
+
+.yellow{
+    background-color: rgb(255,216,48);
+}
+
+.side-text{
+    width: 40vw;
+    height: 30vw;
+    margin: 0 auto;
+    float: left;
+    padding: 30px;
+    background-color: rgb(245,245,245);
+}
+
+.side-text>img{
+    width: 30%;
+} 
+
+.side-text>hr{
+    margin-top: 40px;
+    width: 10%;
+    border: 1px solid lightgray;
+}
+
+.side-text>p{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+/* team */
+.w-70{
+    width: 70%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+#mini-banner{
+    background-color: #B4D0E7;
+    margin-bottom: 150px;
+}
+
+.minibanner-text{
+    width: 60%;
+    float: left;
+    color: rgb(103,22,57);
+}
+
+.minibanner-text>h2{
+    font-size: 45px;
+}
+
+.minibanner-button{
+    float: right;
+    border: 0;
+}
+
+.minibanner-button>button{
+    padding: 10px 40px;
+}
